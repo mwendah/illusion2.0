@@ -474,9 +474,7 @@
           <!-- whatsapp float icon  -->
           <li>
             <a href="https://wa.me/254796767676" class="whatsapp_float">
-                <i class="fa fa-whatsapp" aria-hidden="true"></i>
-
-                <span class="fa fa-whatsapp "><i class=""></i></span>
+                <i class="fab fa-whatsapp"></i>
             </a>
         </li>
         <!-- end whatsapp -->
@@ -489,38 +487,40 @@
                   <a href="#">Illusion Drips</a>. All rights reserved.</div>
             </div>
         </div>
+
+        <style>
+            .whatsapp_float {
+              position: fixed; 
+              width: 60px;height: 60px;bottom: 40px;right: 40px;
+              background-color: #12b6b9;color: #f5a93f;border-radius: 40px;
+              text-align: center;font-size: 30px;box-shadow: 2px 2px 3px #999;z-index: 100;
+            }
+            .whatsapp-icon {
+              margin-top: 70px;position: center;
+    
+            }
+        
+            /* for mobile */
+            @media screen and (max-width: 767px){
+              .whatsapp-icon {
+                margin-top: 10px;
+              }
+              .whatsapp_float {
+                width: 40px;height: 40px;bottom: 20px;right: 10px;font-size: 52px;
+              }
+            }
+          </style>
     </footer>
     <!-- main-footer end -->
 
-    <style>
-        .whatsapp_float {
-          position: absolute; 
-          width: 60px;height: 60px;bottom: 40px;left: 40px;
-          background-color: #12b6b9;color: #f5a93f;border-radius: 40px;
-          text-align: center;font-size: 30px;box-shadow: 2px 2px 3px #999;z-index: 100;
-        }
-        .whatsapp-icon {
-          margin-top: 70px;position: center;
-
-        }
-    
-        /* for mobile */
-        @media screen and (max-width: 767px){
-          .whatsapp-icon {
-            margin-top: 10px;
-          }
-          .whatsapp_float {
-            width: 40px;height: 40px;bottom: 20px;right: 10px;font-size: 52px;
-          }
-        }
-      </style>
+   
 
 
 
 <!--Scroll to top-->
-<button class="scroll-top scroll-to-target" data-target="html">
+<!-- <button class="scroll-top scroll-to-target" data-target="html">
     <span class="fas fa-angle-up"></span>
-</button>
+</button> -->
 
 
 <!-- jequery plugins -->
